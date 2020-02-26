@@ -6,6 +6,6 @@ const Team = db.define("team", {
     type: Sequelize.STRING,
     field: "team_name"
   }
-})
+}, { timestamps: false })
 
 module.exports = Team
